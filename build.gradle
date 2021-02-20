@@ -1,0 +1,43 @@
+plugins {
+    id'java'
+    id'application'
+    id'com.github.johnrengelman.shadow' version '6.1.0'
+}
+
+mainClassName = 'me.agramon.agrapedia.Agrapedia'
+
+version '1.0'
+
+sourceCompatibility = JavaVersion.VERSION_14
+
+repositories {
+    jcenter()
+
+}
+
+dependencies {
+
+    compile("net.dv8tion:JDA:4.2.0_227")
+    compile("com.jagrosh:jda-utilities:3.0.5")
+    compile("io.github.cdimascio:java-dotenv:5.2.2")
+    compile("ch.qos.logback:logback-classic:1.2.3")
+    compile("me.duncte123:botCommons:2.0.122")
+    compile("junit:junit:4.13.1")
+
+    compile("org.slf4j:slf4j-api:1.7.30")
+    compile("org.slf4j:slf4j-ext:1.7.30")
+    compile("org.slf4j:jcl-over-slf4j:1.7.30")
+
+    compile("commons-io:commons-io:2.8.0")
+    compile("org.apache.commons:commons-lang3:3.11")
+    compile("org.json:json:20201115")
+
+    compile("org.jsoup:jsoup:1.13.1")
+    compile("net.sourceforge.htmlunit:htmlunit:2.47.1")
+    compile("org.seleniumhq.selenium:selenium-java:3.141.59")
+    compile("com.apptastic:rssreader:2.4.1")
+
+    //compile("com.ninja-beans.crawler:cloudflare-iuam-solver:0.1.0")
+}
+
+compileJava.options.encoding = 'UTF-8'

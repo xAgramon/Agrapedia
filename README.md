@@ -70,6 +70,6 @@ https://discord.com/api/oauth2/authorize?client_id=809546583078207568&permission
   
 ## License
   
-Agrapedia is licensed under the Apache license. See the file LICENSE for more information.
+Agrapedia is licensed under the MIT license. See the file LICENSE for more information.
 If you plan to use any part of this source code in your own bot, 
 I would be grateful if you would include some form of credit somewhere.

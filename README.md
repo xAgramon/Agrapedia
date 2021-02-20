@@ -14,20 +14,20 @@ Agrapedia is a discord bot that allows you to search and get info on mangas/manh
   
 ## Commands (<>)
   
-Fun:  
+**Fun:**  
 `baka - B-baka!`  
 `pat - Pat pat`    
 `slap - Wa-pow!`    
 `smug - ¬‿¬`  
 - - - 
-Help/Info:  
+**Help/Info:**  
 `avatar - Shows a user's avatar`  
 `dmhelp - Sends a dm to the user with more information about the commands`  
 `help - List of commands`     
 `info - Shows the server info`    
 `profile - Shows a user's profile`    
 - - -
-Sources:  
+**Sources:**  
 `kkp` - Shows the top 10 hottest manhwas on KakaoPage
   
 `kkp get [seriesID]` - Shows information about a manhwa (KKP-ID, Total Chapters, Latest Chapter)
@@ -56,7 +56,11 @@ An emoji will automatically appear in the message when a unit is mentioned, such
 * 10in
 
 Reacting to the emoji will result in the bot messaging you the appropriate conversion.
-  
+
+
+## Video Showcase
+
+[![Bot Tutorial/Showcase](https://i.imgur.com/cl8GSkj.png)](https://www.youtube.com/watch?v=2K1QjZ2IfW0&feature=youtu.be)
   
 ## Invite
   
